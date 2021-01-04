@@ -19,6 +19,10 @@ import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
  */
 class Home extends Component  {
 
+    /**
+     * Constructor, se inicializan las variables
+     * @param {*} props 
+     */
     constructor(props) {
         super(props);
         this.state = {
@@ -42,15 +46,24 @@ class Home extends Component  {
         this.onDragEnd = this.onDragEnd.bind(this);
     }
 
+    /**
+     * Obtenemos la lista más reciente de las cajas "drop",
+     * 1) Lista de artículos
+     * 2) Carrito de compras
+     * @param {*} id 
+     */
     getList(id) {
         if(this.id2List[id] == 'selected')  {
             return this.state[this.id2List[id]];
         }   else    {
             return this.articulos;
         }
-        
     }
 
+    /**
+     * Función que se ejecuta cuando se termina de ejecutar un movimiento
+     * @param {*} result 
+     */
     onDragEnd(result) {
         const { source, destination } = result;
     
@@ -99,6 +112,9 @@ class Home extends Component  {
         this.changePage();
     }
 
+    /**
+     * Cambio de página
+     */
     changePage()    {
         let { page } = this.state;
         page++
