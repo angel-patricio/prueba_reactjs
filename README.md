@@ -7,6 +7,8 @@ Si se desea probar el proyecto, subo a un servidor:
 https://demo-reactjs.angelpatricio.mx/ \
 (También funciona en pantallas de celular, incluyendo el arrastrar y soltar de los elementos)
 
+* Las instrucciones para bajar y ejecutar el código están al pie de este documento
+
 ## Requisitos Funcionales
 
 
