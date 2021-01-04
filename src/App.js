@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+import { routes } from "./config/routes";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Switch>
+          {routes.map((route, i) => (
+            <RouteConfigs key={i} {...route} />
+          ))}
+        </Switch>
+    </Router>
+  );
+}
+
+/**
+ * Función que permite que las rutas se carguen de forma dinámica desde un archivo de configuración: 
+ * ./config/routes.js
+ * @param {*} route 
+ */
+function RouteConfigs(route) {
+  return (
+    <Route
+      path={route.path}
+      render={props => (
+        <route.component {...props} routes={route.routes} />
+      )}
+    />
   );
 }
 
