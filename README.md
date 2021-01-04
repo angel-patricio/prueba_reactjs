@@ -1,6 +1,10 @@
 
-# Aplicación de prueba práctica: Examen
+# Aplicación de prueba práctica
+## Ejecución
 
+Si se desea probar el proyecto, subo a un servidor:
+
+https://demo-reactjs.angelpatricio.mx/
   
 
 ## Requisitos Funcionales
@@ -44,16 +48,18 @@
 `Se utilizan los siguientes patrones: Dispatch, Actions, Sagas, Reducers, Estados, Observadores, Proxy, Singleton`
 
 [✔️] - Consumir los servicios web en la siguiente ruta: https://5413ec42-f060-403e-b676-dd7d7b0a0631.mock.pstmn.io\
-`Se consumen los servicios proporcionados`
+`Se consumen los servicios proporcionados`\
+![Texto alternativo](https://angelpatricio.mx/images/6.png)
 
 [✔️] - Generar build con minificado y ofuscado de la aplicación.\
-`Se deja el build en el release de este repositorio`
+`Se deja el build en el release de este repositorio: https://github.com/angel-patricio/prueba_reactjs/releases/tag/v1.0.0`
 
 [✔️] - Deseable: Los productos deberán cargarse en el carrito utilizando drag & drop.\
 `Se deja un botón en la posición solicitada con MaterialUI`
 
 [✔️] - Deseable: La solución deberá implementar al menos 1 feature de una PWA.\
-`Se habilita para la instalación y la pantalla offline (PWA)`
+`Se habilita para la instalación y la pantalla offline (PWA)`\
+![Texto alternativo](https://angelpatricio.mx/images/5.png)
 
 [✔️] - Deseable: Utilizar Material-UI\
 `Se utiliza Material UI`
@@ -68,7 +74,8 @@
 `Se utiliza Material UI`
 
 ## Puntos que serán evaluados
-[] - Uso de las herramientas indicada en la sección Pre-requisitos.
+[] - Uso de las herramientas indicada en la sección Pre-requisitos.\
+![Texto alternativo](https://angelpatricio.mx/images/4.png)
 
 [] - Completitud de los requisitos funcionales.
 
@@ -78,9 +85,13 @@
 
 [] - Creatividad que se aplique a nivel visual como efectos, animaciones, transiciones, proporciones.
 
-[] - Simplicidad en la lógica de programación.
+[] - Simplicidad en la lógica de programación.\
+![Texto alternativo](https://angelpatricio.mx/images/2.png)
 
-[] - Buenas prácticas de programación tales como: comentarios en código, uso de archivos de configuración por separado.
+[] - Buenas prácticas de programación tales como: comentarios en código, uso de archivos de configuración por separado.\
+`Todos los componentes fueron desarrollados en una estructura limpia y se dejó comentado el código`\
+![Texto alternativo](https://angelpatricio.mx/images/3.png)
+
 
 [] - El código debe ser compartido en cualquier SaaS Git como Github, Bitbucked de forma pública.
 
