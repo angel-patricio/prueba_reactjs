@@ -101,7 +101,7 @@ Si se desea probar el proyecto, subo a un servidor:
 
 https://demo-reactjs.angelpatricio.mx/
 
-Para bajar el código se puede dar click arriba en "Descargar zip", esto descargará el código completo y abrá que correr los siguientes comandos dentro de la carpeta bajada:
+Para bajar el código se puede dar click arriba en "Descargar zip", esto descargará el código completo y se deben que correr los siguientes comandos dentro de la carpeta bajada:
 
 ### `npm start`
 
