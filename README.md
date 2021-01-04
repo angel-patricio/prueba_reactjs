@@ -84,7 +84,7 @@
 
 [] - El código debe ser compartido en cualquier SaaS Git como Github, Bitbucked de forma pública.
 
-## Available Scripts
+## Ejecución
 
 Si se desea probar el proyecto, subo a un servidor:
 
@@ -98,8 +98,5 @@ Instala todas las dependencias necesarias para correr el proyecto
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Corre la aplicación en modo desarrollo\
+Abrir [http://localhost:3000](http://localhost:3000) para ver en el navegador
